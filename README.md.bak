@@ -35,7 +35,7 @@ Commencer le développement d'une nouvelle fonctionnalité avec :
 
 Cette commande crée une nouvelle branche de fonctionnalité basée sur 'develop' et passe sur cette branche
 
-![alt text](http://url/to/feature.png)
+![alt text](http://url/to/images/feature.png)
 
 ## Terminer une fonctionnalité
 
@@ -49,7 +49,7 @@ Termine le développement d'une fonctionnalité. Cette action effectue les opér
 
  `$ git flow feature finish MYFEATURE`
  
-![alt text](http://url/to/finish-feature.png)
+![alt text](http://url/to/images/finish-feature.png)
 
 ## Publier une fonctionnalité
 
@@ -59,7 +59,7 @@ Publiez une fonctionnalité sur le serveur distant pour qu'elle puisse être uti
 
  `$ git flow feature publish MYFEATURE`
 
-![alt text](http://url/to/publish-feature.png)
+![alt text](http://url/to/images/publish-feature.png)
 
 
 ## Récupérer une fonctionnalité publiée
@@ -72,7 +72,7 @@ Vous pouvez suivre une fonctionnalité sur le serveur distant en utilisant
 
 `git flow feature track MYFEATURE`
 
-![alt text](http://url/to/pull-feature.png)
+![alt text](http://url/to/images/pull-feature.png)
 
 # Livraison/Release
 
@@ -87,7 +87,7 @@ Créer une branche de livraison basée sur la branche de développement.
 
  `$ git flow release start RELEASE [BASE]`
  
- ![alt text](http://url/to/start-release.png)
+ ![alt text](http://url/to/images/start-release.png)
 
 Vous pouvez si besoin ajouter le paramètre [BASE], correspondant au hash d'un commit à partir duquel commencera la livraison. 
 Ce commit doit faire partie de la branche de développement.
@@ -113,7 +113,7 @@ Terminer une livraison est une des étapes majeures de cette méthode. Plusieurs
 
  `$ git flow release finish RELEASE`
  
-  ![alt text](http://url/to/finish-release.png)
+  ![alt text](http://url/to/images/finish-release.png)
 
 N'oubliez pas de pousser vos étiquettes (tags) avec
 
@@ -131,7 +131,7 @@ Comme pour les autres commandes git-flow, un hotfix est commencé par
 
  `$ git flow hotfix start VERSION [BASE]`
  
- ![alt text](http://url/to/start-hotfix.png)
+ ![alt text](http://url/to/images/start-hotfix.png)
 
 Ici, le paramètre VERSION indique le nom de la future release corrective. 
 Vous pouvez si besoin spécifier le paramètre [BASE], correspondant au hash d'un commit ou au nom d'une branche à partir duquel s'appliquera le hotfix.
@@ -143,9 +143,9 @@ De plus la fusion vers 'master' est etiquetée par la version du hotfix.
 
  `$ git flow hotfix finish VERSION`
  
- ![alt text](http://url/to/finish-hotfix.png)
+ ![alt text](http://url/to/images/finish-hotfix.png)
  
  
 # Commandes
 
-![alt text](http://url/to/commandes.png)
+![alt text](http://url/to/images/commandes.png)

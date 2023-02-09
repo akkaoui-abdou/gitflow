@@ -1,5 +1,6 @@
 
-Gitflow en quelques mots
+# Gitflow en quelques mots
+
 Gitflow sépare sur des branches isolées le code en cours de développement et le code validé et testé. Pour cela, il s’appuie sur la création de plusieurs branches dont le cycle de vie est bien défini. Voici une table contenant leurs noms, leurs cycles de vie et leurs fonctions :
 
 | Branche	| Nombre	| Branche d’origine	| Durée de vie	| Fonction
@@ -18,14 +19,11 @@ Existe en général uniquement dans les dépôts des développeurs
 
 ## Initialisation
 
-
 Commencez à utiliser git-flow en l'initialisant dans un dépôt git existant :
 
  `$ git flow init `
 
-
 ## Commencer une feature
-
 
 Le développement d'une fonctionnalité commence à partir de la branche 'develop'
 
@@ -39,8 +37,6 @@ Cette commande crée une nouvelle branche de fonctionnalité basée sur 'develop
 
 ## Terminer une fonctionnalité
 
-
-
 Termine le développement d'une fonctionnalité. Cette action effectue les opérations suivantes:
 
 - Fusionne MYFEATURE dans 'develop'
@@ -53,14 +49,12 @@ Termine le développement d'une fonctionnalité. Cette action effectue les opér
 
 ## Publier une fonctionnalité
 
-
 Vous développez une fonctionnalité en collaboration?
 Publiez une fonctionnalité sur le serveur distant pour qu'elle puisse être utilisée par d'autres utilisateurs.
 
  `$ git flow feature publish MYFEATURE`
 
 ![alt text](https://github.com/akkaoui-abdou/gitflow/blob/main/images/publish-feature.png)
-
 
 ## Récupérer une fonctionnalité publiée
 
@@ -118,7 +112,6 @@ Terminer une livraison est une des étapes majeures de cette méthode. Plusieurs
 N'oubliez pas de pousser vos étiquettes (tags) avec
 
  `$ git push --tags`
-
 
 # Correctifs/Hotfixes
 
